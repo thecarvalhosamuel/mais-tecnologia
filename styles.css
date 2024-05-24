@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 32px;
+}
+
+h1 {
+  padding-bottom: 30px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: larger;
+}
